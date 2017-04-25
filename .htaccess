@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]
+
+SetEnv HTTP_DB_HOST "localhost"
+SetEnv HTTP_DB_USER "root"
+SetEnv HTTP_DB_PASS "root"
+SetEnv HTTP_DB_NAME "mydb"
+SetEnv HTTP_USER_ID 2
