@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CSVImporter.iml" filepath="$PROJECT_DIR$/.idea/CSVImporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DesignPatternsPHP/.idea/DesignPatternsPHP.iml" filepath="$PROJECT_DIR$/../DesignPatternsPHP/.idea/DesignPatternsPHP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SimpleUnitPhp/.idea/SimpleUnitPhp.iml" filepath="$PROJECT_DIR$/../SimpleUnitPhp/.idea/SimpleUnitPhp.iml" />
     </modules>
   </component>
 </project>

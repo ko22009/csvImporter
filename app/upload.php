@@ -1,7 +1,7 @@
 <?php
 
-require_once 'File.php';
-require_once 'Product.php';
+namespace csvImporter\App;
+use Exception;
 
 try {
     $csv = File::read();
@@ -20,7 +20,7 @@ try {
     exit();
 }
 
-$product = new Product();
+$product = new ProductModel();
 $output = ['update' => 0, 'create' => 0, 'error' => 0];
 foreach ($csv as $elem)
 {

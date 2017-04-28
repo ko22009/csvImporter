@@ -1,8 +1,9 @@
 <?php
 
-require_once 'DB.php';
+namespace csvImporter\App;
+use PDO;
 
-class Product
+class ProductModel
 {
     private $connection;
     function __construct()
