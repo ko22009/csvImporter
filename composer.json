@@ -1,0 +1,22 @@
+{
+  "name": "ko22009/csvImporter",
+  "description": "Import to DB",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ko22009",
+      "email": "ko22009@yandex.ru"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "6.1.2",
+    "mikey179/vfsStream": "v1.6.4",
+    "phpunit/dbunit": "3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "csvImporter\\": ""
+    }
+  }
+}

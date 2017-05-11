@@ -1,6 +1,9 @@
 <?php
 
-class DB
+namespace csvImporter\App;
+use PDO;
+
+class DB implements IDatabase
 {
     private static $instance = null;
     private $connection;
